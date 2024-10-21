@@ -34,7 +34,7 @@ function App() {
       <div className="center-container">
         <TodoInput addList={addList} />
         <h1 className="app-heading">TODO</h1>
-        <hr/>
+        <hr  />
         {listTodo.map((listItem, i) => (
           <TodoList key={i} index={i} item={listItem} deleteItem={deleteListItem} />
         ))}
